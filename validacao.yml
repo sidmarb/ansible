@@ -3,7 +3,7 @@
 - hosts: all
   gather_facts: no
   tasks:
-  - name: Creating an empty file
+  - name: Creating an empty file teste
     file:
       path: "/tmp/teste1"
       state: touch
