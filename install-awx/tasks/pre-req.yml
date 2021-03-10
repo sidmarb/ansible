@@ -1,4 +1,4 @@
-- name: Instalando o Docker
+- name: Instalando o Docker 
   shell: curl -fsSL https://get.docker.com | bash
 
 - name: Install a list of packages
@@ -27,7 +27,7 @@
     name: 
         - docker-compose==1.9.0
     
-- name: Clonando o REPO
+- name: Clonando o REPO - 9.1.0
   git:
     repo: "{{ git_repo }}"
     version: "{{ git_repo_version }}"
